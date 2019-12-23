@@ -4,8 +4,9 @@ import styles from '../Dashboard/Dashboard.scss'
 
 const Dashboard = () => (
     <div className={styles.component}>
+        
         <h2>
-            Login View
+            Dashboard View
         </h2>
     </div>
 );

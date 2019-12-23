@@ -1,13 +1,13 @@
 import React from 'react';
 //import PropTypes from 'prop-types';
-import styles from '../Kitchen/Kitchen.scss'
+import styles from '../Ordering/Ordering.scss'
 
-const Kitchen = () => (
+const NewOrder = () => (
     <div className={styles.component}>
         <h2>
-            Kitchen View
+            NewOrder View
         </h2>
     </div>
 );
 
-export default Kitchen;
+export default NewOrder;
