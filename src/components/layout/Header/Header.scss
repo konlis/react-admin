@@ -1,0 +1,19 @@
+@import '../../../styles/settings.scss';
+
+
+.component {
+  font-size: 10px;
+  color: $color-nav;
+}
+
+.root {
+        flex-grow: 1;
+    }
+
+.menuButton {
+        margin-right: spacing(2);
+    }
+
+.title {
+        flex-grow: 1;
+    }
