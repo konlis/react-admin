@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <MainLayout>
-        <Grid direction='row'>
+        <Grid container direction='row'>
           <Grid container  spacing={2} >
             <PageNav/>         
           </Grid>
