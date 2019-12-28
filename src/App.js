@@ -8,7 +8,7 @@ import Dashboard from './components/views/Dashboard/Dashboard';
 import Tables from './components/views/Tables/Tables';
 import Ordering from './components/views/Ordering/Ordering';
 import Kitchen from './components/views/Kitchen/Kitchen';
-import NewOrder from './components/views/Ordering/NewOrder';
+import NewOrder from './components/views/Ordering/NewOrderContainer';
 import Grid from '@material-ui/core/Grid';
 import PageNav from './components/views/PageNav/PageNav';
 //import Container from '@material-ui/core/Container';
