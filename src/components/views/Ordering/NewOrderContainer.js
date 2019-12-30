@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import NewOrder from '../../features/Card/NewOrderCard';
+import NewOrder from './NewOrder';
 import { getAllProducts, fetchProductsFromAPI, getProductsLoadingState } from '../../../redux/productRedux';
 
 const mapStateToProps = (state) => ({
