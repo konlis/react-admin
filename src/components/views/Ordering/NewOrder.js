@@ -6,7 +6,7 @@ class NewOrder extends React.Component {
         fetchProducts: PropTypes.func,
         loading: PropTypes.shape({
             active: PropTypes.bool,
-            error: PropTypes.anyOf(PropTypes.bool, PropTypes.string),
+            error: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
         }),
     }
 

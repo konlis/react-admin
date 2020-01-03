@@ -1,4 +1,5 @@
 /* global require, process */
+const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const jsonServer = require('json-server');
@@ -33,6 +34,7 @@ server.use(function (req, res, next) {
     next();
 });
 
+server.use(cors());
 server.use(middlewares);
 server.use(router);
 
